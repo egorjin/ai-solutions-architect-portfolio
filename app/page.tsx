@@ -590,7 +590,7 @@ export default function Page() {
           >
             WhatsApp ↗
           </a>
-      
+
           <a
             href="https://t.me/rucy_super"
             target="_blank"
@@ -599,10 +599,15 @@ export default function Page() {
           >
             Telegram ↗
           </a>
-      
-          <span className="text-neutral-500">
-            MAX: +7 914 330 7487
-          </span>
+
+          <a
+            href="https://max.ru/u/f9LHodD0cOJ3dKM3wRQQvYB7yFqp5R1CWZE216KDxLqUuqZfQDECoFhkpWA"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:underline"
+          >
+            MAX ↗
+          </a>
         </div>
       </section>
     </div>
