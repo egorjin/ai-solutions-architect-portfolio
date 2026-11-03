@@ -179,7 +179,7 @@ export default function Page() {
           </a>
           <a
             href="/Egor-Dzhin-AI-Solutions-Architect.pdf"
-            download
+            download="Egor-Dzhin-AI-Solutions-Architect.pdf"
             className="rounded-lg border border-neutral-700 px-5 py-3 text-sm font-medium transition hover:bg-neutral-900"
           >
             Download Resume ↓
