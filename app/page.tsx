@@ -155,6 +155,47 @@ export default function Page() {
         </div>
       </section>
 
+      {/* KEY RESULTS */}
+      <section>
+        <p className="mb-3 text-sm font-medium uppercase tracking-[0.2em] text-neutral-500">
+          Key Results
+        </p>
+      
+        <div className="grid gap-4 md:grid-cols-3">
+          <div className="rounded-2xl border border-neutral-800 bg-neutral-950 p-6">
+            <p className="text-3xl font-semibold">
+              &gt;1 week → ~10 min
+            </p>
+            <p className="mt-3 text-sm leading-6 text-neutral-400">
+              Redesigned processing for a 10M+ record system, reducing a full cycle
+              from more than one week across approximately 10 computers to about
+              10 minutes on one existing computer.
+            </p>
+          </div>
+      
+          <div className="rounded-2xl border border-neutral-800 bg-neutral-950 p-6">
+            <p className="text-3xl font-semibold">
+              20 years
+            </p>
+            <p className="mt-3 text-sm leading-6 text-neutral-400">
+              Worked with approximately 20 years of heterogeneous historical port
+              data across EDI messages, shipping data, container records, PDFs,
+              legacy databases, and operational logs.
+            </p>
+          </div>
+      
+          <div className="rounded-2xl border border-neutral-800 bg-neutral-950 p-6">
+            <p className="text-3xl font-semibold">
+              End-to-end AI
+            </p>
+            <p className="mt-3 text-sm leading-6 text-neutral-400">
+              Experience spans data processing, mathematical modeling, AI/ML,
+              backend services, integration, deployment, and production monitoring.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* PROFILE */}
       <section>
         <p className="mb-3 text-sm font-medium uppercase tracking-[0.2em] text-neutral-500">
