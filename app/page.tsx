@@ -33,6 +33,8 @@ const projects = [
       'Python · RAG · LLM · LangChain · PydanticAI · Ragas · PostgreSQL · Docker · Kubernetes · Prometheus · Grafana',
     impact:
       'Focused on retrieval accuracy, hallucination reduction, low-latency responses, and production reliability.',
+    architecture:
+      'Documents → Parent-Child Chunking → Hybrid Search → Reranking → Context Selection → LLM → Guardrails → Evaluation',
     highlight: false,
   },
   {
@@ -43,6 +45,7 @@ const projects = [
       'AI/ML · Mathematical Modeling · Image Processing · REST APIs · Microservices · Kubernetes · Docker · Golang',
     impact:
       'Applied AI engineering in a healthcare environment where system quality and reliability were critical.',
+    architecture: null,
     highlight: false,
   },
   {
@@ -53,6 +56,7 @@ const projects = [
       'PostgreSQL · OLAP · PydanticAI · Distributed Processing · Data Validation · Enterprise Integration',
     impact:
       'Designed processing concepts for very large datasets using temporal chunking, parallel processing, structured extraction, validation, and centralized storage.',
+    architecture: null,
     highlight: false,
   },
   {
@@ -63,6 +67,7 @@ const projects = [
       'Database Architecture · SQL · Query Optimization · Performance Engineering',
     impact:
       'Before: ~10 computers / >1 week. After: 1 existing computer / ~10 minutes.',
+    architecture: null,
     highlight: true,
   },
 ]
@@ -221,6 +226,18 @@ export default function Page() {
               <p className="mt-4 leading-7 text-neutral-400">
                 {project.description}
               </p>
+
+              {project.architecture && (
+                <div className="mt-5 rounded-xl border border-neutral-800 bg-black p-4">
+                  <p className="mb-2 text-xs font-medium uppercase tracking-[0.15em] text-neutral-500">
+                    Architecture Flow
+                  </p>
+              
+                  <p className="font-mono text-sm leading-6 text-neutral-300">
+                    {project.architecture}
+                  </p>
+                </div>
+              )}
 
               <div className="mt-5 border-t border-neutral-800 pt-5">
                 <p className="text-sm font-medium text-neutral-300">
