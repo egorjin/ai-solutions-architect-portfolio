@@ -109,21 +109,18 @@ export default function Page() {
         </p>
 
         <h1 className="max-w-4xl text-4xl font-semibold tracking-tight md:text-6xl">
-          Designing complete AI systems from data to production.
+          AI Solutions Architect building production AI systems end to end.
         </h1>
-
+        
         <p className="mt-6 max-w-3xl text-lg leading-8 text-neutral-600 dark:text-neutral-300">
-          Senior AI and software engineering professional with experience across
-          Generative AI, LLM/RAG systems, machine learning, mathematical
-          modeling, computer vision, intelligent data processing, backend
-          engineering, and cloud-native architecture.
+          Senior AI / ML engineer with experience across Generative AI, LLM/RAG,
+          machine learning, mathematical modeling, computer vision, intelligent data
+          processing, backend engineering, and cloud-native architecture.
         </p>
-
+        
         <p className="mt-4 max-w-3xl leading-7 text-neutral-600 dark:text-neutral-300">
-          My experience spans industrial, healthcare, education, logistics, and
-          enterprise systems, with a strong focus on production-ready AI,
-          scalability, reliability, performance, and measurable engineering
-          outcomes.
+          I design complete solutions from data and modeling through backend services,
+          integration, deployment, observability, and production optimization.
         </p>
 
         <div className="mt-8 rounded-2xl border border-neutral-800 bg-neutral-950 p-5 font-mono text-sm text-neutral-300">
@@ -196,52 +193,6 @@ export default function Page() {
         </div>
       </section>
 
-      {/* PROFILE */}
-      <section>
-        <p className="mb-3 text-sm font-medium uppercase tracking-[0.2em] text-neutral-500">
-          Profile
-        </p>
-
-        <h2 className="max-w-3xl text-3xl font-semibold tracking-tight">
-          AI architecture backed by deep software and systems engineering.
-        </h2>
-
-        <p className="mt-6 max-w-3xl leading-7 text-neutral-600 dark:text-neutral-300">
-          I work across the full lifecycle of intelligent systems: requirements,
-          architecture, data processing, modeling, model and LLM integration,
-          backend services, distributed systems, deployment, monitoring, and
-          optimization.
-        </p>
-
-        <p className="mt-4 max-w-3xl leading-7 text-neutral-600 dark:text-neutral-300">
-          My background combines traditional AI and optimization with modern
-          Generative AI, allowing me to approach AI solutions as complete
-          engineering systems rather than isolated models.
-        </p>
-      </section>
-
-      {/* SKILLS */}
-      <section>
-        <p className="mb-3 text-sm font-medium uppercase tracking-[0.2em] text-neutral-500">
-          Core Expertise
-        </p>
-
-        <h2 className="text-3xl font-semibold tracking-tight">
-          AI, data, backend, and infrastructure.
-        </h2>
-
-        <div className="mt-7 flex flex-wrap gap-3">
-          {skills.map((skill) => (
-            <span
-              key={skill}
-              className="rounded-full border border-neutral-800 bg-neutral-950 px-4 py-2 text-sm text-neutral-300"
-            >
-              {skill}
-            </span>
-          ))}
-        </div>
-      </section>
-
       {/* MAIN PROJECTS */}
       <section id="projects">
         <p className="mb-3 text-sm font-medium uppercase tracking-[0.2em] text-neutral-500">
@@ -305,6 +256,28 @@ export default function Page() {
                 </p>
               </div>
             </article>
+          ))}
+        </div>
+      </section>
+
+      {/* SKILLS */}
+      <section>
+        <p className="mb-3 text-sm font-medium uppercase tracking-[0.2em] text-neutral-500">
+          Core Expertise
+        </p>
+
+        <h2 className="text-3xl font-semibold tracking-tight">
+          AI, data, backend, and infrastructure.
+        </h2>
+
+        <div className="mt-7 flex flex-wrap gap-3">
+          {skills.map((skill) => (
+            <span
+              key={skill}
+              className="rounded-full border border-neutral-800 bg-neutral-950 px-4 py-2 text-sm text-neutral-300"
+            >
+              {skill}
+            </span>
           ))}
         </div>
       </section>
