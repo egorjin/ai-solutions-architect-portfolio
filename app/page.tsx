@@ -368,6 +368,49 @@ export default function Page() {
         </div>
       </section>
 
+      {/* TECHNICAL FOUNDATION */}
+      <section>
+        <p className="mb-3 text-sm font-medium uppercase tracking-[0.2em] text-neutral-500">
+          Technical Foundation
+        </p>
+      
+        <h2 className="text-3xl font-semibold tracking-tight">
+          Strong software, data, architecture, and DevOps background.
+        </h2>
+      
+        <div className="mt-8 grid gap-5 md:grid-cols-2">
+          <div className="rounded-2xl border border-neutral-800 bg-neutral-950 p-6">
+            <h3 className="font-semibold">Programming Languages</h3>
+            <p className="mt-3 leading-7 text-neutral-400">
+              Python · C/C++ · TypeScript · JavaScript · Golang · Java · PHP · C#
+            </p>
+          </div>
+      
+          <div className="rounded-2xl border border-neutral-800 bg-neutral-950 p-6">
+            <h3 className="font-semibold">Databases & Data Platforms</h3>
+            <p className="mt-3 leading-7 text-neutral-400">
+              PostgreSQL · Oracle · MongoDB · SQL · OLAP · Kafka · Airflow
+            </p>
+          </div>
+      
+          <div className="rounded-2xl border border-neutral-800 bg-neutral-950 p-6">
+            <h3 className="font-semibold">Architecture</h3>
+            <p className="mt-3 leading-7 text-neutral-400">
+              Microservices · REST APIs · Distributed Systems · Cloud-Native
+              Architecture · Data Architecture · System Integration
+            </p>
+          </div>
+      
+          <div className="rounded-2xl border border-neutral-800 bg-neutral-950 p-6">
+            <h3 className="font-semibold">DevOps & Observability</h3>
+            <p className="mt-3 leading-7 text-neutral-400">
+              Docker · Kubernetes · CI/CD · Jenkins · Prometheus · Grafana · Azure ·
+              Google Cloud
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* DOMAINS */}
       <section>
         <p className="mb-3 text-sm font-medium uppercase tracking-[0.2em] text-neutral-500">
