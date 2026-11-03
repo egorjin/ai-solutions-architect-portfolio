@@ -304,18 +304,51 @@ export default function Page() {
           RAG, intelligent data processing, and AI platform engineering roles.
         </p>
 
-        <div className="mt-7 flex flex-wrap gap-5 text-sm">
-          <a href="#" className="hover:underline">
-            LinkedIn ↗
-          </a>
-
-          <a href="#" className="hover:underline">
+        <div className="mt-7 flex flex-wrap gap-x-6 gap-y-3 text-sm">
+          <a
+            href="https://github.com/egorjin"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:underline"
+          >
             GitHub ↗
           </a>
-
-          <a href="#" className="hover:underline">
+        
+          <a
+            href="mailto:rusuperbl@gmail.com"
+            className="hover:underline"
+          >
             Email ↗
           </a>
+        
+          <a
+            href="tel:+79143307487"
+            className="hover:underline"
+          >
+            Phone
+          </a>
+        
+          <a
+            href="https://wa.me/79143307487"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:underline"
+          >
+            WhatsApp ↗
+          </a>
+        
+          <a
+            href="https://t.me/rucy_super"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:underline"
+          >
+            Telegram ↗
+          </a>
+        
+          <span className="text-neutral-400">
+            MAX: +7 914 330 7487
+          </span>
         </div>
       </section>
     </div>
