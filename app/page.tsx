@@ -33,6 +33,7 @@ const projects = [
       'Python · RAG · LLM · LangChain · PydanticAI · Ragas · PostgreSQL · Docker · Kubernetes · Prometheus · Grafana',
     impact:
       'Focused on retrieval accuracy, hallucination reduction, low-latency responses, and production reliability.',
+    highlight: false,
   },
   {
     title: 'AI Ultrasound Image Processing',
@@ -42,6 +43,7 @@ const projects = [
       'AI/ML · Mathematical Modeling · Image Processing · REST APIs · Microservices · Kubernetes · Docker · Golang',
     impact:
       'Applied AI engineering in a healthcare environment where system quality and reliability were critical.',
+    highlight: false,
   },
   {
     title: 'Laem Chabang Port — AI / Data Engineering',
@@ -51,15 +53,17 @@ const projects = [
       'PostgreSQL · OLAP · PydanticAI · Distributed Processing · Data Validation · Enterprise Integration',
     impact:
       'Designed processing concepts for very large datasets using temporal chunking, parallel processing, structured extraction, validation, and centralized storage.',
+    highlight: false,
   },
   {
     title: '10M+ Record System Performance Redesign',
     description:
-      'Redesigned a severely constrained record-processing system with more than 10 million records by optimizing database access, query processing, large-record-set handling, application logic, and N+1 query patterns.',
+      'Redesigned a severely constrained record-processing system with more than 10 million records by optimizing database access, query processing, application logic, N+1 query patterns, and large-record-set processing.',
     stack:
       'Database Architecture · SQL · Query Optimization · Performance Engineering',
     impact:
-      'Reduced a complete processing cycle from more than one week across approximately 10 computers to about 10 minutes on a single existing computer.',
+      'Before: ~10 computers / >1 week. After: 1 existing computer / ~10 minutes.',
+    highlight: true,
   },
 ]
 
@@ -206,7 +210,11 @@ export default function Page() {
           {projects.map((project) => (
             <article
               key={project.title}
-              className="rounded-2xl border border-neutral-800 bg-neutral-950 p-6"
+              className={
+                project.highlight
+                  ? 'rounded-2xl border border-neutral-600 bg-neutral-900 p-6 md:col-span-2'
+                  : 'rounded-2xl border border-neutral-800 bg-neutral-950 p-6'
+              }
             >
               <h3 className="text-xl font-semibold">{project.title}</h3>
 
@@ -227,7 +235,14 @@ export default function Page() {
                 <p className="text-sm font-medium text-neutral-300">
                   Outcome
                 </p>
-                <p className="mt-2 text-sm leading-6 text-neutral-400">
+              
+                <p
+                  className={
+                    project.highlight
+                      ? 'mt-3 text-xl font-semibold leading-8 text-white'
+                      : 'mt-2 text-sm leading-6 text-neutral-400'
+                  }
+                >
                   {project.impact}
                 </p>
               </div>
