@@ -336,6 +336,38 @@ export default function Page() {
         </div>
       </section>
 
+      {/* EDUCATION */}
+      <section>
+        <p className="mb-3 text-sm font-medium uppercase tracking-[0.2em] text-neutral-500">
+          Education
+        </p>
+      
+        <h2 className="text-3xl font-semibold tracking-tight">
+          Engineering foundation in computation, mathematics, and systems.
+        </h2>
+      
+        <div className="mt-8 rounded-2xl border border-neutral-800 bg-neutral-950 p-6">
+          <p className="text-sm text-neutral-500">
+            Bangkok, Thailand · Aug 2008 – May 2014
+          </p>
+      
+          <h3 className="mt-2 text-xl font-semibold">
+            Master of Engineering — Electrical & Computer Engineering
+          </h3>
+      
+          <p className="mt-1 text-neutral-400">
+            Bangkok University International College
+          </p>
+      
+          <p className="mt-5 max-w-3xl leading-7 text-neutral-400">
+            Academic foundation included mathematical modeling, numerical analysis,
+            computational mathematics, differential equations, discrete mathematics,
+            information theory, computer architecture, operating systems, network
+            design, cybersecurity, and cryptography.
+          </p>
+        </div>
+      </section>
+
       {/* DOMAINS */}
       <section>
         <p className="mb-3 text-sm font-medium uppercase tracking-[0.2em] text-neutral-500">
@@ -373,16 +405,17 @@ export default function Page() {
         <p className="mb-3 text-sm font-medium uppercase tracking-[0.2em] text-neutral-500">
           Contact
         </p>
-
+      
         <h2 className="text-3xl font-semibold tracking-tight">
-          Let&apos;s build production AI systems.
+          Open to senior AI and architecture opportunities.
         </h2>
-
+      
         <p className="mt-4 max-w-2xl leading-7 text-neutral-400">
-          Open to AI Solutions Architect, Senior AI / ML Engineer, Generative AI,
-          RAG, intelligent data processing, and AI platform engineering roles.
+          Interested in AI Solutions Architect, Senior AI / ML Engineer,
+          Generative AI, RAG, intelligent data processing, AI platform,
+          and complex backend architecture roles.
         </p>
-
+      
         <div className="mt-7 flex flex-wrap gap-x-6 gap-y-3 text-sm">
           <a
             href="https://github.com/egorjin"
@@ -392,21 +425,21 @@ export default function Page() {
           >
             GitHub ↗
           </a>
-        
+      
           <a
             href="mailto:rusuperbl@gmail.com"
             className="hover:underline"
           >
             Email ↗
           </a>
-        
+      
           <a
             href="tel:+79143307487"
             className="hover:underline"
           >
             Phone
           </a>
-        
+      
           <a
             href="https://wa.me/79143307487"
             target="_blank"
@@ -415,7 +448,7 @@ export default function Page() {
           >
             WhatsApp ↗
           </a>
-        
+      
           <a
             href="https://t.me/rucy_super"
             target="_blank"
@@ -424,8 +457,8 @@ export default function Page() {
           >
             Telegram ↗
           </a>
-        
-          <span className="text-neutral-400">
+      
+          <span className="text-neutral-500">
             MAX: +7 914 330 7487
           </span>
         </div>
