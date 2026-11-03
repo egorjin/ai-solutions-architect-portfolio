@@ -2,27 +2,31 @@ import './global.css'
 import type { Metadata } from 'next'
 import { GeistSans } from 'geist/font/sans'
 import { GeistMono } from 'geist/font/mono'
-import { Navbar } from './components/nav'
 import { Analytics } from '@vercel/analytics/react'
 import { SpeedInsights } from '@vercel/speed-insights/next'
-import Footer from './components/footer'
 import { baseUrl } from './sitemap'
 
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
+
   title: {
-    default: 'Next.js Portfolio Starter',
-    template: '%s | Next.js Portfolio Starter',
+    default: 'AI Solutions Architect | Senior AI / ML Engineer',
+    template: '%s | AI Solutions Architect',
   },
-  description: 'This is my portfolio.',
+
+  description:
+    'AI Solutions Architect and Senior AI/ML Engineer specializing in Generative AI, LLMs, RAG, AI Agents, Machine Learning, MLOps, and production AI systems.',
+
   openGraph: {
-    title: 'My Portfolio',
-    description: 'This is my portfolio.',
+    title: 'AI Solutions Architect | Senior AI / ML Engineer',
+    description:
+      'Designing and building scalable, secure, production-ready AI and machine learning systems.',
     url: baseUrl,
-    siteName: 'My Portfolio',
+    siteName: 'AI Solutions Architect Portfolio',
     locale: 'en_US',
     type: 'website',
   },
+
   robots: {
     index: true,
     follow: true,
@@ -36,7 +40,8 @@ export const metadata: Metadata = {
   },
 }
 
-const cx = (...classes) => classes.filter(Boolean).join(' ')
+const cx = (...classes: (string | undefined | false)[]) =>
+  classes.filter(Boolean).join(' ')
 
 export default function RootLayout({
   children,
@@ -52,11 +57,9 @@ export default function RootLayout({
         GeistMono.variable
       )}
     >
-      <body className="antialiased max-w-xl mx-4 mt-8 lg:mx-auto">
-        <main className="flex-auto min-w-0 mt-6 flex flex-col px-2 md:px-0">
-          <Navbar />
+      <body className="antialiased">
+        <main className="max-w-4xl mx-auto px-6 py-12">
           {children}
-          <Footer />
           <Analytics />
           <SpeedInsights />
         </main>
