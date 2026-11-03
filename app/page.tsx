@@ -76,25 +76,25 @@ const earlierProjects = [
   {
     title: 'AI / ML Production Planning',
     description:
-      'Designed an AI/ML-based approach for estimating production quantities using historical production, demand, inventory, capacity, process time, raw-material availability, market information, and production-cycle performance.',
+      'Designed an AI/ML approach for production planning using historical production, demand, inventory, capacity, process time, and raw-material constraints.',
     tech: 'Deep Learning · ALOPEX · Stochastic Gradient Descent',
   },
   {
     title: 'Compound Feed Optimization',
     description:
-      'Designed an optimization approach for determining compound-feed recipes and integrated optimization into enterprise production and field-control workflows.',
+      'Designed a feed-recipe optimization approach integrated with enterprise production and field-control workflows.',
     tech: 'Hill Climbing · ERP · Production Management · Industrial Automation',
   },
   {
     title: 'Turbine Control Optimization',
     description:
-      'Applied AI/ML to historical turbine operational data to support fine-tuning and optimization of turbine speed and control behavior.',
-    tech: 'Industrial AI · Historical Analysis · SCADA · Sensor Data',
+      'Applied AI/ML to historical turbine operational data to support control tuning and performance optimization.',
+    tech: 'Industrial AI · SCADA · Sensor Data · Historical Analysis',
   },
   {
     title: 'Embedded Robotics / Computer Vision',
     description:
-      'Designed a robotic vehicle integrating servo control, IMU sensing, GPS positioning, camera input, OpenCV, and object tracking.',
+      'Built a robotic vehicle combining servo control, IMU sensing, GPS, camera input, OpenCV, and object tracking.',
     tech: 'OpenCV · Robotics · Computer Vision · Embedded Systems',
   },
 ]
