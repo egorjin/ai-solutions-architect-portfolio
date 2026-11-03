@@ -150,6 +150,17 @@ export default function Page() {
             Download Resume ↓
           </a>
         </div>
+
+        <div className="mt-8 border-t border-neutral-800 pt-6">
+          <p className="text-sm text-neutral-500">
+            Target roles
+          </p>
+        
+          <p className="mt-2 text-sm leading-6 text-neutral-300">
+            AI Solutions Architect · Senior AI / ML Engineer · Generative AI Engineer ·
+            RAG / LLM Engineer · AI Platform Engineer
+          </p>
+        </div>
       </section>
 
       {/* KEY RESULTS */}
