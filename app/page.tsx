@@ -610,6 +610,60 @@ export default function Page() {
           </a>
         </div>
       </section>
+
+      <footer className="border-t border-neutral-800 pt-8 text-sm text-neutral-500">
+        <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
+          <div>
+            <p className="font-medium text-neutral-300">
+              Egor Dzhin
+            </p>
+      
+            <p className="mt-1">
+              AI Solutions Architect · Senior AI / ML Engineer
+            </p>
+          </div>
+      
+          <div className="flex flex-wrap gap-x-5 gap-y-2">
+            <a
+              href="https://github.com/egorjin"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-white"
+            >
+              GitHub
+            </a>
+      
+            <a
+              href="mailto:rusuperbl@gmail.com"
+              className="hover:text-white"
+            >
+              Email
+            </a>
+      
+            <a
+              href="https://t.me/rucy_super"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-white"
+            >
+              Telegram
+            </a>
+      
+            <a
+              href="https://wa.me/79143307487"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-white"
+            >
+              WhatsApp
+            </a>
+          </div>
+        </div>
+      
+        <p className="mt-6 pb-8 text-xs text-neutral-600">
+          © 2026 Egor Dzhin. All rights reserved.
+        </p>
+      </footer>
     </div>
   )
 }
