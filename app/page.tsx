@@ -103,7 +103,7 @@ export default function Page() {
   return (
     <div className="space-y-24">
       <nav className="sticky top-0 z-50 -mx-6 border-b border-neutral-800 bg-black/80 px-6 py-4 backdrop-blur">
-        <div className="mx-auto flex max-w-4xl items-center justify-between gap-4">
+        <div className="flex flex-wrap items-center gap-4 text-sm text-neutral-400">
           <a href="#" className="text-sm font-semibold tracking-tight">
             Egor Dzhin
           </a>
