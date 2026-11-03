@@ -213,16 +213,16 @@ export default function Page() {
         </p>
 
         <div className="mt-6 flex flex-wrap gap-5 text-sm">
-          <a href="#" className="hover:underline">
+          <a href="#" className="hover:underline" style="display:none;">
             LinkedIn ↗
           </a>
 
           <a href="#" className="hover:underline">
-            GitHub ↗
+            GitHub ↗ https://github.com/egorjin
           </a>
 
           <a href="#" className="hover:underline">
-            Email ↗
+            Email ↗ rusuperbl@gmail.com
           </a>
         </div>
       </section>
