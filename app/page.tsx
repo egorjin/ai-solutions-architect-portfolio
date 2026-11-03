@@ -102,6 +102,48 @@ const earlierProjects = [
 export default function Page() {
   return (
     <div className="space-y-24">
+      <nav className="sticky top-0 z-50 -mx-6 border-b border-neutral-800 bg-black/80 px-6 py-4 backdrop-blur">
+        <div className="mx-auto flex max-w-4xl items-center justify-between gap-4">
+          <a href="#" className="text-sm font-semibold tracking-tight">
+            Egor Dzhin
+          </a>
+      
+          <div className="hidden items-center gap-5 text-sm text-neutral-400 md:flex">
+            <a href="#projects" className="transition hover:text-white">
+              Projects
+            </a>
+      
+            <a href="#experience" className="transition hover:text-white">
+              Experience
+            </a>
+      
+            <a href="#education" className="transition hover:text-white">
+              Education
+            </a>
+      
+            <a href="#contact" className="transition hover:text-white">
+              Contact
+            </a>
+      
+            <a
+              href="https://github.com/egorjin"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="transition hover:text-white"
+            >
+              GitHub ↗
+            </a>
+          </div>
+      
+          <a
+            href="#contact"
+            className="rounded-lg border border-neutral-700 px-3 py-2 text-xs font-medium md:hidden"
+          >
+            Contact
+          </a>
+        </div>
+      </nav>
+
       {/* HERO */}
       <section className="pt-8">
         <p className="mb-4 text-sm font-medium uppercase tracking-[0.2em] text-neutral-500">
@@ -294,7 +336,7 @@ export default function Page() {
       </section>
 
       {/* EXPERIENCE */}
-      <section>
+      <section id="experience">
         <p className="mb-3 text-sm font-medium uppercase tracking-[0.2em] text-neutral-500">
           Professional Experience
         </p>
@@ -394,7 +436,7 @@ export default function Page() {
       </section>
 
       {/* EDUCATION */}
-      <section>
+      <section id="education">
         <p className="mb-3 text-sm font-medium uppercase tracking-[0.2em] text-neutral-500">
           Education
         </p>
