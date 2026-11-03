@@ -108,7 +108,7 @@ export default function Page() {
             Egor Dzhin
           </a>
       
-          <div className="hidden items-center gap-5 text-sm text-neutral-400 md:flex">
+          <div className="flex flex-wrap items-center gap-4 text-sm text-neutral-400">
             <a href="#projects" className="transition hover:text-white">
               Projects
             </a>
@@ -134,13 +134,6 @@ export default function Page() {
               GitHub ↗
             </a>
           </div>
-      
-          <a
-            href="#contact"
-            className="rounded-lg border border-neutral-700 px-3 py-2 text-xs font-medium md:hidden"
-          >
-            Contact
-          </a>
         </div>
       </nav>
 
