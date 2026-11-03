@@ -18,13 +18,20 @@ export const metadata: Metadata = {
     'AI Solutions Architect and Senior AI/ML Engineer specializing in Generative AI, LLMs, RAG, AI Agents, Machine Learning, MLOps, and production AI systems.',
 
   openGraph: {
-    title: 'AI Solutions Architect | Senior AI / ML Engineer',
+    title: 'Egor Dzhin — AI Solutions Architect | Senior AI / ML Engineer',
     description:
-      'Designing and building scalable, secure, production-ready AI and machine learning systems.',
+      'Production AI, LLM/RAG, machine learning, computer vision, data engineering, backend architecture, and cloud-native systems.',
     url: baseUrl,
-    siteName: 'AI Solutions Architect Portfolio',
+    siteName: 'Egor Dzhin — AI Solutions Architect',
     locale: 'en_US',
     type: 'website',
+  },
+
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Egor Dzhin — AI Solutions Architect | Senior AI / ML Engineer',
+    description:
+      'Production AI, LLM/RAG, machine learning, computer vision, data engineering, backend architecture, and cloud-native systems.',
   },
 
   robots: {
