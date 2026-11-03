@@ -236,6 +236,78 @@ export default function Page() {
         </div>
       </section>
 
+      {/* EXPERIENCE */}
+      <section>
+        <p className="mb-3 text-sm font-medium uppercase tracking-[0.2em] text-neutral-500">
+          Professional Experience
+        </p>
+      
+        <h2 className="text-3xl font-semibold tracking-tight">
+          Senior engineering and AI leadership across complex systems.
+        </h2>
+      
+        <div className="mt-8 space-y-8">
+          <article className="border-l border-neutral-800 pl-6">
+            <p className="text-sm text-neutral-500">May 2024 – Jun 2026 · Thailand</p>
+            <h3 className="mt-2 text-xl font-semibold">
+              Senior Software Engineering Manager
+            </h3>
+            <p className="mt-1 text-neutral-400">
+              PMI Thailand Chapter
+            </p>
+            <p className="mt-4 max-w-3xl leading-7 text-neutral-400">
+              Led and contributed to AI-enabled software platforms combining LLM/RAG,
+              backend engineering, intelligent data processing, and cloud-native
+              architecture.
+            </p>
+          </article>
+      
+          <article className="border-l border-neutral-800 pl-6">
+            <p className="text-sm text-neutral-500">Aug 2021 – Mar 2024 · Thailand</p>
+            <h3 className="mt-2 text-xl font-semibold">
+              Senior Software Engineering Manager
+            </h3>
+            <p className="mt-1 text-neutral-400">
+              Thai Software Engineering Co., Ltd.
+            </p>
+            <p className="mt-4 max-w-3xl leading-7 text-neutral-400">
+              Worked across AI, mathematical modeling, medical imaging, large-scale
+              data platforms, system architecture, and engineering leadership.
+            </p>
+          </article>
+      
+          <article className="border-l border-neutral-800 pl-6">
+            <p className="text-sm text-neutral-500">Mar 2018 – Jul 2021</p>
+            <h3 className="mt-2 text-xl font-semibold">
+              Senior Software Engineer
+            </h3>
+            <p className="mt-1 text-neutral-400">
+              New Computer Technology Consulting
+            </p>
+            <p className="mt-4 max-w-3xl leading-7 text-neutral-400">
+              Worked on large-scale data-processing architecture, industrial
+              automation, enterprise integration, networking, and AI-assisted data
+              engineering for major infrastructure environments.
+            </p>
+          </article>
+      
+          <article className="border-l border-neutral-800 pl-6">
+            <p className="text-sm text-neutral-500">2016 – 2017</p>
+            <h3 className="mt-2 text-xl font-semibold">
+              Project Manager / Senior Software Developer / Senior Backend Developer
+            </h3>
+            <p className="mt-1 text-neutral-400">
+              Novartis Thailand
+            </p>
+            <p className="mt-4 max-w-3xl leading-7 text-neutral-400">
+              Worked across pharmaceutical manufacturing IT, enterprise software,
+              industrial automation, and applied AI/ML, including production planning
+              and optimization.
+            </p>
+          </article>
+        </div>
+      </section>
+
       {/* EARLIER AI */}
       <section>
         <p className="mb-3 text-sm font-medium uppercase tracking-[0.2em] text-neutral-500">
